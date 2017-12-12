@@ -16,7 +16,7 @@ public class ImpListaUnicos implements I_ImplLista{
     
     @Override
     public void addItem(String item){
-        if (listaItems.contains((item))){
+        if (!listaItems.contains((item))){
         listaItems.add(item);
         }
     }
